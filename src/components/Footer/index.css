@@ -1,0 +1,42 @@
+.footer {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 96px;
+}
+
+.footer-website-logo {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f8fafc;
+  text-align: center;
+  margin-top: 0;
+}
+
+.india-text {
+  color: #3b82f6;
+}
+
+.footer-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.icons-container {
+  color: #cbd5e1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 52.9233px;
+  margin-top: 24px;
+  width: 266px;
+}

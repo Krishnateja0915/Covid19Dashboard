@@ -1,0 +1,260 @@
+.home-container {
+  min-height: 100vh;
+  background: #161625;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-input-container {
+  background-color: #2f2f43;
+  width: 90%;
+  max-width: 524px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-top: 64px;
+  padding: 24px;
+}
+
+.search-button {
+  border: 0;
+  background-color: transparent;
+  color: #94a3b8;
+}
+
+.search-input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  flex-grow: 1;
+  color: #94a3b8;
+  padding: 0;
+}
+
+.covid-details-containers {
+  width: 80%;
+  max-width: 979px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 112px;
+}
+
+.country-wide-confirmed-cases {
+  color: #ff073a;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.country-wide-active-cases {
+  color: #007bff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.country-wide-recovered-cases {
+  color: #28a745;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.country-wide-deceased-cases {
+  color: #6c757d;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.state-wise-covid-data-table {
+  width: 90%;
+  max-width: 1146px;
+  background: #1e1e30;
+  border: 1px solid #475569;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  align-self: center;
+  margin-top: 106px;
+}
+
+.stats-header {
+  border-bottom: 1px solid #475569;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 24px 32px;
+}
+
+.states-heading-sort-buttons-container {
+  display: flex;
+  align-items: center;
+  width: 203px;
+}
+
+.sort-button {
+  border: 0;
+  background-color: transparent;
+  color: #94a3b8;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+.ascending-sort {
+  margin-left: 4px;
+}
+
+.column-header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  margin: 0;
+}
+
+.confirmed-header {
+  width: 76px;
+}
+
+.active-header {
+  width: 46px;
+}
+
+.recovered-header {
+  width: 77px;
+}
+
+.deceased-header {
+  width: 71px;
+}
+
+.population-header {
+  width: 78px;
+}
+
+.stats-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.stats-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 24px 32px;
+}
+
+.value {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.state-name {
+  width: 203px;
+  color: #f1f5f9;
+}
+
+.confirmed {
+  width: 76px;
+  color: #ff073a;
+}
+
+.active {
+  width: 46px;
+  color: #0bb7ff;
+}
+
+.recovered {
+  width: 77px;
+  color: #28a745;
+}
+
+.deceased {
+  width: 71px;
+  color: #6c757d;
+}
+
+.population {
+  width: 78px;
+  color: #94a3b8;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.search-results-list {
+  list-style-type: none;
+  padding-left: 0;
+  align-self: center;
+  margin-top: 0;
+}
+
+.state-item {
+  width: 524px;
+}
+
+.state-link {
+  text-decoration: none;
+  border-bottom: 0.3px solid #64748b;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.state-link:hover {
+  background-color: #1f1f30;
+  border: 1px solid #94a3b8;
+}
+
+.search-result-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+  margin: 0;
+}
+
+.search-result-code-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  background: rgba(28, 212, 212, 0.16);
+  border-radius: 4px;
+  width: 79px;
+  height: 32px;
+}
+
+.search-result-code {
+  color: #facc15;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}

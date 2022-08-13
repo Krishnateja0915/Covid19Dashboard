@@ -1,0 +1,62 @@
+.about-route {
+  min-height: 100vh;
+  background: #161625;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  width: 85%;
+  max-width: 1146px;
+  align-self: center;
+}
+
+.about-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  color: #f8fafc;
+}
+
+.about-route-last-updated {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #94a3b8;
+}
+
+.custom-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #e2e8f0;
+}
+
+.faqs-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.question {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #94a3b8;
+}
+
+.answer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #007bff;
+}

@@ -1,0 +1,115 @@
+.header {
+  background-color: #1e1e30;
+  padding: 8px 110px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  flex-grow: 1;
+}
+
+.website-logo-nav-link {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f8fafc;
+  text-decoration: none;
+}
+
+.india-text {
+  color: #3b82f6;
+}
+
+.menu-button {
+  border: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+.nav-item {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-item {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 32px;
+  }
+}
+
+.home-nav-link {
+  text-decoration: none;
+  font-weight: 400;
+  color: #94a3b8;
+}
+
+.about-nav-link {
+  text-decoration: none;
+  font-weight: 400;
+  color: #94a3b8;
+}
+
+.nav-button {
+  border: 0;
+  background-color: transparent;
+  color: #94a3b8;
+}
+
+.active-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #f8fafc;
+}
+
+.menu {
+  display: flex;
+  margin-top: 32px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+.close-button {
+  color: #ffffff;
+  border: 0;
+  background-color: transparent;
+  margin-right: 32px;
+  margin-left: auto;
+}
+
+.nav-link-sm {
+  text-decoration: none;
+  font-weight: 400;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 32px;
+}
